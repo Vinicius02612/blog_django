@@ -11,11 +11,11 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # Copia a pasta "djangoapp" e "scripts" para dentro do container.
-COPY djangoapp /djangoapp
+COPY django_app /django_app
 COPY scripts /scripts
 
 # Entra na pasta djangoapp no container
-WORKDIR /djangoapp
+WORKDIR /django_app
 
 # A porta 8000 estará disponível para conexões externas ao container
 # É a porta que vamos usar para o Django.
