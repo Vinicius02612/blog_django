@@ -1,3 +1,12 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 /djangoapp/static/
 /djangoapp/media/
 /djangoapp/project/local_settings.py
@@ -102,14 +111,7 @@ celerybeat-schedule.*
 # SageMath parsed files
 *.sage.py
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+
 
 # mkdocs documentation
 /site
