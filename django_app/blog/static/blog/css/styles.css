@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(63, 63, 223, 0.37);
+
+}
+
+header > h1{
+    align-items: center;
+}
+
+div{
+    height: 800px;
+    background-color: blueviolet;
+}
