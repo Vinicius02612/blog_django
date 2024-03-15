@@ -6,7 +6,7 @@ services:
     build:
       context: .
     ports:
-      - 8000:8000
+      - 8080:8080
     volumes:
       - ./django_app:/django_app
       - ./data/web/static:/data/web/static/
