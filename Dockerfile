@@ -19,7 +19,7 @@ WORKDIR /django_app
 
 # A porta 8000 estará disponível para conexões externas ao container
 # É a porta que vamos usar para o Django.
-EXPOSE 8000
+EXPOSE 8080
 
 # RUN executa comandos em um shell dentro do container para construir a imagem. 
 # O resultado da execução do comando é armazenado no sistema de arquivos da 
